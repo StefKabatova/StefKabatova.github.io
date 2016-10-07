@@ -1,0 +1,106 @@
+body{
+  background-image: url(yellow-metal-design-decoration.jpg);
+  background-size: cover;
+  margin:0 30px;
+}
+
+.navigation{
+  display:flex;
+  justify-content: flex-end;
+  margin:auto;
+  align-items: center;
+  /*background:rgb(77, 77, 77);*/
+  /*border: 1px solid;*/
+  /*border-radius: 5px;*/
+
+}
+
+/*.tabs {
+  margin-right: auto;
+}*/
+
+nav a  {
+  margin:10px 40px;
+  text-decoration: none;
+  color:#fff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 1px;
+
+
+}
+
+
+nav a:hover{
+  background:salmon;
+  color:#262626;
+
+}
+.logo{
+  margin-right: auto;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: .1em;
+  font-size: 45px;
+
+}
+
+/*.tabs:first-child{
+  margin-right: auto;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: .1em;
+
+}*/
+
+#maincontent{
+  height:400px;
+  margin:50px;
+  display:flex;
+  justify-content: center;
+  background: lightgrey;
+  align-items: center;
+
+}
+
+#image{
+  height:300px;
+  width:300px;
+  background: salmon;
+  margin-right:30px;
+}
+
+#myinfo{
+  /*height:800px;*/
+  width:300px;
+}
+
+h2{
+  text-align: center;
+  margin:-10px;
+}
+
+.content2{
+  margin:40px;
+  display:flex;
+  justify-content: center;
+}
+
+.myskills{
+  width:300px;
+  height:200px;
+  background: skyblue;
+  margin:20px;
+  text-align: center;
+  padding-top:10px;
+  border-radius: 10px;
+}
+
+#CTA{
+  text-align: center;
+  margin:30px;
+}
+footer{
+  text-align: center;
+  background: skyblue;
+}
