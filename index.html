@@ -3,44 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Personal Portfolio</title>
+<!-- Implemented Bootstrap CDN scripts   -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <title>RaitzaK</title>
 </head>
 <body>
-    <header class="navigation">
-        <p class="logo" href="#">StefK.</p>
-      <nav>
-        <a class="tabs" href="#">About me</a>
-        <a class="tabs links" href="#">My Work</a>
-        <a class="tabs" href="#">Contact</a>
-      </nav>
-    </header>
-  <section id="maincontent">
-    <div id="image"></div>
-    <div id="myinfo">
-      <h1>Hello!</h1>
-      <p> my content goes here Lorem ipsum dolor sit amet, mel ne choro soleat, ei tempor pertinax est, nam discere iudicabit id. Melius mediocritatem pri id, exerci admodum dissentiet eum ex. Vitae graeci elaboraret ea quo, sea ea meis ferri menandri. Cu nostro quaestio senserit eam, mei ut alia vide prompta. Vel detraxit erroribus et, qui at movet partem assentior, eum probo falli ridens eu. Nobis instructior duo ne, ne utamur graecis per, per vocibus eligendi invidunt in.</p>
-    </div>
-  </section>
-  <h2 id="skills">My Skills</h2>
-  <section class="content2" >
-      <div class="myskills">Management</div>
-      <div class="myskills">Creative</div>
-      <div class="myskills">Technical</div>
-  </section>
-
-<div id="CTA">
-  <p> Take a closer look.</p>
-  <button>check out my work.</button>
+<section class="container">
+  <!--navigation bar -->
+  <div class="navbar navbar-inverse">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li ><a class="nav-brand logo" href="#">Stef_K</a></li>
+        <li class="active links"><a href="#">About</a></li>
+        <li class="links"><a href="#">My Work</a></li>
+        <li class="links"><a href="#">Contact Me</a></li>
+      </ul>
+  </div>
 </div>
+<!-- Second section that describes my skills/capabilties -->
+<section>
+    <h2 class="section_headers"> What Makes Me ... Me</h2>
+    <div class="hero-unit">
+        <div class="diamond"></div>
+    </div>
+</section>
+  
+<section>
+  <h2 class="section_headers">What I bring to the Table</h2>
+    <div class="thumbnails">
+      <div class="span4">
+        <div class="thumbnail">
+          <div class="caption">
+            <h3>Leadership</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet temporibus sint nemo, sed maxime quis mollitia eligendi, dolorem officiis libero, quia sit aspernatur? </p>
+          </div>
+          <div class="icon"></div>
+        </div>
+      </div>
 
-<footer>
-  Design by Stefany Kabatova
-</footer>
+      <div class="span4">
+        <div class="thumbnail">
+          <div class="caption">
+            <h3>Creativity</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet temporibus sint nemo, sed maxime quis mollitia eligendi, dolorem officiis libero, quia sit aspernatur?</p>
+          </div>
+          <div class="icon"></div>
+        </div>
+      </div>
 
+      <div class="span4">
+        <div class="thumbnail">
+          <div class="caption">
+            <h3>Technical</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet temporibus sint nemo, sed maxime quis mollitia eligrnatur? porro nulla repellendus sunt quo.</p>
+          <div class="icon"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
 
+<!-- Section that lists different projects I worked on -->
+  <section>
+    <h2 class="section_headers">The Works</h2>
+      <div class="projects one">
+        <div class="project_preview"></div>
+          <div>
+            <h3>Project One</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo beatae,
+            sunt consectetur ipsam modi sit doloremque laboriosam reprehenderit! Non illo dolorem,
+            labore aliquam voluptatibus? Odit fuga aperiam qui ullam soluta.
+        </div>
+      </div>
 
+      <div class="projects two">
+        <div class="project_image"></div>
+          <div>
+            <h3>Project Two</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo beatae,
+            sunt consectetur ipsam modi sit doloremque laboriosam reprehenderit! Non illo dolorem,
+            labore aliquam voluptatibus? Odit fuga aperiam qui ullam soluta.
+        </div>
+      </div>
+
+      <div class="projects three">
+        <div class="project_preview"></div>
+          <div>
+            <h3>Project Three</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo beatae,
+            sunt consectetur ipsam modi sit doloremque laboriosam reprehenderit! Non illo dolorem,
+            labore aliquam voluptatibus? Odit fuga aperiam qui ullam soluta.
+        </div>
+      </div>
+  </section>
+</section>
 
 </body>
 </html>
