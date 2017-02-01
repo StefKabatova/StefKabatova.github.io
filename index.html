@@ -3,44 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <title>RaitzaK</title>
 </head>
 <body>
-    <header class="navigation">
-        <p class="logo" href="#">StefK.</p>
-      <nav>
-        <a class="tabs" href="#">About me</a>
-        <a class="tabs links" href="#">My Work</a>
-        <a class="tabs" href="#">Contact</a>
-      </nav>
-    </header>
-  <section id="maincontent">
-    <div id="image"></div>
-    <div id="myinfo">
-      <h1>Hello!</h1>
-      <p> my content goes here Lorem ipsum dolor sit amet, mel ne choro soleat, ei tempor pertinax est, nam discere iudicabit id. Melius mediocritatem pri id, exerci admodum dissentiet eum ex. Vitae graeci elaboraret ea quo, sea ea meis ferri menandri. Cu nostro quaestio senserit eam, mei ut alia vide prompta. Vel detraxit erroribus et, qui at movet partem assentior, eum probo falli ridens eu. Nobis instructior duo ne, ne utamur graecis per, per vocibus eligendi invidunt in.</p>
+
+  <!--  Navigation -->
+  <div class="navbar navbar-default">
+    <ul class="nav nav-pills">
+      <li role="presentation" class="links"><a class="nav-brand logo" href="#">Stef_Kabatova</a></li>
+      <li role="presentation" class="active links"><a href="#">About</a></li>
+      <li role="presentation" class="links"><a href="#">My Work</a></li>
+      <li role="presentation" class="links"><a href="#">Contact Me</a></li>
+    </ul>
+  </div>
+
+<!-- Main page and cover-->
+  <section id="cover">
+    <div class="cover-caption">
+      <div class="container">
+        <div class="col-sm-7 col-sm-offset-1">
+          <p id="main_caption"> Hello <span> &amp </span> Welcome!</br> I am glad you came to take a peek.</p>
+       </div>
+      </div>
     </div>
   </section>
-  <h2 id="skills">My Skills</h2>
-  <section class="content2" >
-      <div class="myskills">Management</div>
-      <div class="myskills">Creative</div>
-      <div class="myskills">Technical</div>
+
+      <!-- page divider -->
+     <div class="divider"></div>
+
+
+     <div class="block text-center">
+         <h1 class="block-title">Stefany Kabatova</h1>
+         <p class="text-muted"> A motivated self-taugh web developer with a passion for technology and digital strategy.
+        </p>
+    </div>
+      <div class="divider"></div>
+
+
+
+      <h2 class="section_headers">Professional Background</h2>
+      <p class="section_headers"> I am a graduate from the University of Maryland, Robert H. Smith School of Business. I have a background in digital advertisement and business management. I look to implement innovative and integrative solutions and here is some of what I can do.</p>
+
+
+<div class="block text-center">
+    <section id="skilltest">
+
+          <div class="thumbnails">
+              <div class="span4">
+                <div class="thumbnail">
+                  <div class="caption">
+                  <h3>Project Management</h3>
+                  <p> Organized and supervised several networking events.</p>
+                </div>
+              </div>
+          </div>
+
+      <div class="span4">
+        <div class="thumbnail">
+          <div class="caption">
+            <h3>Communication</h3>
+            <p> Managed onboarding/kickoff meetings for web development projects. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="span4">
+        <div class="thumbnail">
+          <div class="caption">
+            <h3>Web Development</h3>
+            <p> In addition to desiging and developing this portfolio page, I constantly work on improving my programming skills. <a href="#projects">Check out some of my projects..</a></p>
+          </div>
+        </div>
+      </div>
   </section>
 
-<div id="CTA">
-  <p> Take a closer look.</p>
-  <button>check out my work.</button>
+  </div>
 </div>
 
-<footer>
-  Design by Stefany Kabatova
-</footer>
 
 
+<div class="divider"></div>
+
+
+<div class="album text-muted">
+  <div class="container">
+    <h1 id="projects"style= 'text-align:center;'>Projects</h1>
+    <div id="works" class="row">
+      <div class="card">
+        <img class="box_preview" src="images/triviaq.png"/>
+        <h3>Trivia Game</h3>
+        <p class="card-text"> Using the concept of Object Oriented Javascript, I developed a Trivia game using Html, CSS, and JQuery.  </p>
+      </div>
+      <div class="card">
+        <img class="box_preview" src="images/gfmeals.png"/>
+        <h3>My GFMeals</h3>
+        <p class="card-text">Using Ruby on Rails. I developed a web application that allows user to keep a record of their favorite GlutenFree Recipes.</p>
+      </div>
+      <div class="card">
+        <img class="box_preview" src="images/wackAmole.png"/>
+        <h3>Wack-A-Mole</h3>
+        <p class="card-text">Using HTML, CSS, and JavaScript. Make moles appear randomly</p>
+    </div>
+  </div>
+</div>
 
 
 </body>
 </html>
+
