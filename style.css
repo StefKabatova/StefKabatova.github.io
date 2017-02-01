@@ -1,106 +1,93 @@
+
+html,
 body{
-  background-image: url(yellow-metal-design-decoration.jpg);
+  height: 100%;
+  font-family: verdana;
+}
+
+.navbar{
+  width: 100%;
+	z-index: 5;
+	position: fixed;
+}
+
+#cover{
+  /*background: url('images/hello.png')center;*/
+  background: url('images/jellcopy.jpg') center;
   background-size: cover;
-  margin:0 30px;
-}
-
-.navigation{
-  display:flex;
-  justify-content: flex-end;
-  margin:auto;
+  height: 100%;
+  display: flex;
   align-items: center;
-  /*background:rgb(77, 77, 77);*/
-  /*border: 1px solid;*/
-  /*border-radius: 5px;*/
-
+  color:white;
+  /*color:#1d77a8;*/
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #ccc;
 }
 
-/*.tabs {
-  margin-right: auto;
-}*/
-
-nav a  {
-  margin:10px 40px;
-  text-decoration: none;
-  color:#fff;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 1px;
-
-
+.divider{
+  border-top: 5px dotted;
+  width: 200px;
+  margin: 30px auto;
 }
 
-
-nav a:hover{
-  background:salmon;
-  color:#262626;
-
-}
-.logo{
-  margin-right: auto;
-  font-style: italic;
-  font-size: 18px;
-  letter-spacing: .1em;
-  font-size: 45px;
-
+span{
+  font-size: 2.3em;
 }
 
-/*.tabs:first-child{
-  margin-right: auto;
-  font-style: italic;
-  font-size: 18px;
-  letter-spacing: .1em;
-
-}*/
-
-#maincontent{
-  height:400px;
-  margin:50px;
-  display:flex;
-  justify-content: center;
-  background: lightgrey;
-  align-items: center;
-
+#about{
+  height:40%;
 }
 
-#image{
-  height:300px;
-  width:300px;
-  background: salmon;
-  margin-right:30px;
-}
-
-#myinfo{
-  /*height:800px;*/
-  width:300px;
-}
-
-h2{
+.section_headers{
   text-align: center;
-  margin:-10px;
+  /*color: white;*/
+  font-family: verdana;
+  flex: 100%;
 }
 
-.content2{
-  margin:40px;
-  display:flex;
+
+.thumbnails{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  background-color:#1d77a8;
+  width: 100%;
+}
+
+.thumbnail{
+  margin: 10px;
+  border-radius: 2%;
+  max-width: 300px;
+  height: 100%;
+  box-shadow: 0px 3px 5px #444;
+
+}
+
+#works{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
   justify-content: center;
 }
 
-.myskills{
-  width:300px;
-  height:200px;
-  background: skyblue;
-  margin:20px;
-  text-align: center;
-  padding-top:10px;
-  border-radius: 10px;
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: .25rem;
+  width: 390px;
+  padding:.75rem;
+  margin-bottom: 2rem;
+
 }
 
-#CTA{
-  text-align: center;
-  margin:30px;
-}
-footer{
-  text-align: center;
-  background: skyblue;
+.box_preview{
+  height:280px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+
 }
