@@ -88,10 +88,5 @@ span{
 }
 
 #contact{
-  background-color: #00A8B8;
-  height: 500px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  color:#eee;
+ 
 }
