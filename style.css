@@ -13,7 +13,7 @@ body{
 
 #cover{
  
-  background-color: #000;
+  background: url('jellcopy.jpg') center;
   background-size: cover;
   height: 100%;
   display: flex;
@@ -90,4 +90,14 @@ span{
   display: block;
   justify-content: center;
 
+}
+
+#contact{
+  background-color: #00A8B8;
+  text-align: center;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color:#eee;
 }
