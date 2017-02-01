@@ -12,8 +12,6 @@ body{
 }
 
 #cover{
-  background: url('jellcopy.jpg') center;
-  background-size: cover;
   height: 100%;
   display: flex;
   align-items: center;
@@ -38,7 +36,6 @@ span{
 
 .section_headers{
   text-align: center;
-  /*color: white;*/
   font-family: verdana;
   flex: 100%;
 }
@@ -92,7 +89,6 @@ span{
 
 #contact{
   background-color: #00A8B8;
-  text-align: center;
   height: 500px;
   display: flex;
   justify-content: space-around;
