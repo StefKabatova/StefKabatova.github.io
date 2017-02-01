@@ -12,14 +12,12 @@ body{
 }
 
 #cover{
- 
   background: url('jellcopy.jpg') center;
   background-size: cover;
   height: 100%;
   display: flex;
   align-items: center;
   color:white;
-  /*color:#1d77a8;*/
   font-size: 2em;
   text-shadow: 1px 1px 1px #ccc;
 }
