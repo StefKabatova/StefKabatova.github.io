@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="style.css" type="text/css" rel="stylesheet" />
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <title>RaitzaK</title>
 </head>
 <body>
 
   <!--  Navigation -->
-  <div class="navbar navbar-default">
+  <div class="navbar navbar-inverse">
     <ul class="nav nav-pills">
       <li role="presentation" class="links"><a class="nav-brand logo" href="#">Stef_Kabatova</a></li>
       <li role="presentation" class="active links"><a href="#aboutme">About</a></li>
@@ -21,105 +20,121 @@
   </div>
 
 <!-- Main page and cover-->
-  <section style=" background: url('jellcopy.jpg') center;
+  <section style=" background: url('..images/clouds.jpg') center;
   background-size: cover;" id="cover">
     <div class="cover-caption">
       <div class="container">
         <div class="col-sm-7 col-sm-offset-1">
           <p id="main_caption">
-            Hello <span>&amp</span> Welcome!<br>
-          I am glad you came to take a peek.</p>
+          Hello <br/>
+            My name is Raitza, welcome to my personal webpage. A webpage I created to show my skills and tell you a little bit about myself.
+          </p>
        </div>
       </div>
     </div>
   </section>
 
-<!-- page divider -->
-  <div class="divider"></div>
+    <!--About Me Section-->
+    <section id="about">
+      <div class="work">
+        <h2 style="font-size: 4em;"> About Me :) </h2>
+      </div>
+      <article  class="work">
+        <article>
+          <h3 class="about-header">I Describe Myself As ...</h3>
+          <p> "A Friendly inquisitve individual, who is always happy to help." </p>
+        </article>
+        <article>
+          <h3 class="about-header">I am Good at ... </h3>
+          <p> "Problem solving, organization, &amp teamwork." </p>
+        </article>
+        <article>
+          <h3 class="about-header">I Like ...</h3>
+          <p> "Design, Photography &amp Computer Programming." </p>
+        </article>
+      </article>
+      <div id="view-work" class="work">
+            <button id="work-button"><a href="#photo">Check out my work </a></button>
+      </div>
+    </section>
 
-<!-- Brand Statement -->
-     <div id="aboutme" class="block text-center">
-         <h1 class="block-title">Stefany Kabatova</h1>
-         <p class="text-muted"> A motivated self-taught web developer with a passion for technology and digital strategy.
-        </p>
-    </div>
+    <!-- Photography section -->
+    <section  id="photo" class="photography">
+      <h1>Photography</h1>
+      <div class="photo-container">
+      <figure class="flex-items boxOne">
+        <img src="images/wheel.jpg" alt=" waterfront sunset with ferris wheel in the background ">
+         <br/>
+      <figcaption>National Harbor in Oxon Hill, MD</figcaption>
+      </figure>
+        
+        <figure class="flex-items boxTwo">
+          <img src="images/cherryf.jpg"  alt="picture of cherry blossoms">
+          <br/>
+          <figcaption> Cherry Blossoms</figcaption>
+        </figure>
+        
+        <figure class="flex-items boxThree">
+          <img src="images/springflw.jpg"  alt="tree with pink flowers">
+          <br/>
+          <figcaption> Cherry Blossoms</figcaption>
+        </figure>
+      
+        <figure class="flex-items boxFour">
+        <img src="images/lake.jpg"  alt="tress surrounding a small lake">
+        <br/>
+        <figcaption> Great Falls Park </figcaption>
+      </figure>
+      </div>
+    </section>
 
-  <div class="divider"></div>
-
-
-<!-- Professional Background   -->
-
-  <div id="main">
-
-    <h2 class="section_headers">Professional Background</h2>
-      <p> I am a graduate from the University of Maryland, Robert H. Smith School of Business. I have a background in digital advertisement and business management. I look to implement innovative and integrative solutions and here is some of what I can do.</p>
-
-      <div class="block text-center">
-        <section id="skilltest">
-          <div class="thumbnails">
-              <div class="span4">
-                <div class="thumbnail">
-                  <div class="caption">
-                  <h3>Project Management</h3>
-                  <p> Organized and supervised several networking events.</p>
-                </div>
-              </div>
-            </div>
-      <div class="span4">
-        <div class="thumbnail">
-          <div class="caption">
-            <h3>Communication</h3>
-            <p> Managed onboarding client meetings for web development projects. </p>
-          </div>
+    <div class="divider"></div>
+      
+     <h1 class="skills-header">Web-Projects</h1>
+      
+      <!--  Web-Project Section -->
+      <section class="web-projects">
+        <div class="projects">
+          <article id="project-one">
+            <h3 class="project-name">Project Name: TRIVIA</h3>
+            <P>Using the concept of Object Oriented Javascript, I developed a Trivia game using Html, CSS, and JQuery.</P>
+            <h3>How it works:</h3>
+            <ol>
+              <li>User picks a category to the begin game.</li>
+              <li>The user is presented with one question and four options to pick from.</li>
+              <li>User make a selection and then the Javascript script checks to see if it is correct.</li>
+            </ol>
+            <img src="images/trivia_image.png" alt="">
+          </article>
+          <article id="project-two">
+            <h3 class="project-name"> Project Name: Gluten Free Recipes</h3>
+            <p>Using Ruby on Rails framework. I developed a web application that allows user to keep a record of their favorite gluten free recipes.</p>
+            <h3>How it works:</h3>
+            <ol id="tester">
+              <li>User logs in to account, which directs them to welcome page.</li>
+              <li> The welcome page displays a list of meal options.Then the user can pick a category to view.</li>
+              <li> Individual meal category page shows up. It shows available recipes. Also gives user an option to add, edit, and delete recipes.</li>
+              <li> The user can pick a recipe, which then takes them to it's individual recipe page.</li>
+            </ol>
+            <img src="images/gfrecipe_image.png" alt="">
+          </article>
         </div>
-      </div>
-      <div class="span4">
-        <div class="thumbnail">
-          <div class="caption">
-            <h3>Web Development</h3>
-            <p> In addition to desiging and developing this portfolio page, I constantly work on improving my programming skills. <a href="#projects">Check out some of my projects..</a></p>
-          </div>
-        </div>
-      </div> 
-          </div>
-   </section>
-  </div>
+      </section>
 
 
-<div class="divider"></div>
+    <div class="divider"></div>
+      
+        <!-- Contact Me Section -->
+  <section id="contact_section" class="contact">
+    <h1>Want to Contact Me?</h1>
+    <div><h3>Email:</h3> Raitzap@gmail.com</div>
+    <div><h3>LinkedIn:</h3>/in/rkabatovap</div>
+  </section>
 
-
-<div class="album text-muted">
-  <h1 id="projects" class="section_headers">Projects</h1>
-  <div class="container">
-    <div id="works" class="row">
-      <div class="card">
-        <img class="box_preview" src="triviaq.png"/>
-        <h3>Trivia Game</h3>
-        <p class="card-text"> Using the concept of Object Oriented Javascript, I developed a Trivia game using Html, CSS, and JQuery.  </p>
-      </div>
-      <div class="card">
-        <img class="box_preview" src="gfmeals.png"/>
-        <h3>My GFMeals</h3>
-        <p class="card-text">Using Ruby on Rails. I developed a web application that allows user to keep a record of their favorite GlutenFree Recipes.</p>
-      </div>
-      <div class="card">
-        <img class="box_preview" src="wackAmole.png"/>
-        <h3>Wack-A-Mole</h3>
-        <p class="card-text">Using HTML, CSS, and JavaScript. Make moles appear randomly</p>
-      </div>
-  </div>
-</div>
-</div>
-
-<div class="divider"></div>
-
-<div style="background-color: #00A8B8; text-align: center;">
-  <h1>Contact Me</h1>
-    <div> Email: raitza@gmail.com</div>
-    <div> LinkedIn: /in/rkabatovap</div>
-    <div> GitHub: StefKabatova</div>
-</div>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 </html>
