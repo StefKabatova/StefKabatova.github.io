@@ -5,20 +5,136 @@ body{
   font-family: verdana;
 }
 
+.skills-header{
+  text-align: center;
+  text-decoration: underline;
+}
+
 .navbar{
   width: 100%;
 	z-index: 5;
 	position: fixed;
 }
 
+/* home page */
+
 #cover{
   height: 100%;
+  font-size: 1.5em;
+  text-align: center;
   display: flex;
   align-items: center;
-  color:white;
-  font-size: 2em;
-  text-shadow: 1px 1px 1px #ccc;
 }
+
+#cover-caption{
+  width: 100%;
+}
+
+.hellobox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* about me */
+
+#about{
+  padding: 20px;
+  height: 100%;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about-header{
+  color:#39b67a;
+  margin:20px;
+}
+
+#view-work{
+margin: 50px;
+text-decoration: none;
+}
+
+#work-button{
+  border-radius: 5px;
+
+}
+
+
+/*photography*/
+
+img{
+  max-width: 100%;
+
+}
+
+.photography{
+  background-color: #000;
+  color:white;
+  text-align: center;
+  padding: 10px;
+}
+
+.photo-container{
+  display:flex;
+  width:70%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-items{
+  margin: 10px;
+}
+
+.boxOne,
+.boxFour{
+  max-width: 800px;
+  flex: 2 1 auto;
+  justify-content: space-around;
+}
+
+.boxTwo,
+.boxThree{
+  max-width: 45%;
+}
+
+
+* projects*/
+
+.web-projects{
+  background-color: #e6e6e6;
+
+}
+.projects{
+display:flex;
+align-items: center;
+flex-direction: column;
+margin: 10px;
+
+
+}
+
+.project-name{
+    color: #388cbc;
+}
+
+/* contact Me*/
+.contact{
+  background-color:#0099cc;
+  text-align: center;
+  padding: 20px;
+  color:white;
+  text-shadow: 5px ;
+}
+
 
 .divider{
   border-top: 5px dotted;
@@ -26,67 +142,11 @@ body{
   margin: 30px auto;
 }
 
-span{
-  font-size: 2.3em;
-}
-
-#about{
-  height:40%;
-}
-
-.section_headers{
-  text-align: center;
-  font-family: verdana;
-}
-
-
-.thumbnails{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  background-color:#1d77a8;
-  width: 100%;
-}
-
-.thumbnail{
-  margin: 10px;
-  border-radius: 2%;
-  max-width: 300px;
-  height: 100%;
-  box-shadow: 0px 3px 5px #444;
-
-}
-
-#works{
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
-
-.card{
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border-radius: .25rem;
-  width: 390px;
-  padding:.75rem;
-  margin-bottom: 2rem;
-
-}
-
-.box_preview{
-  height:280px;
-  width: 100%;
-  display: block;
-  justify-content: center;
-
-}
+/*contact me */
 
 #contact{
- padding: 20px; 
-color: white; 
+ padding: 20px;
+color: white;
 }
+
+
